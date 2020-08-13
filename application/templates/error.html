@@ -1,0 +1,18 @@
+{% extends 'basic.html' %}
+
+{% block head %}
+<title>Error Page</title>
+<style>
+    body{
+        padding: 10px;
+    }
+</style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+{% endblock %}
+
+{% block body %}
+<h1>Error</h1>
+<input type="button" value="Home" class="btn btn-primary" onclick="location.href='/'" />
+
+{%endblock%}
